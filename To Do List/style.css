@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@300&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Agbalumo;
+}
+
+main {
+    width: 100%;
+    height: 50vw;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 500px;
+    height: 40vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#input {
+    height: 40px;
+    width: 475px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#to-do-box {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#to-do-box li {
+    position: relative;
+    background-color: #7f8c8d;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#to-do-box li i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: #bdc3c7 !important;
+}
+

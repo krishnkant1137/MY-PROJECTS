@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@300&family=Tilt+Prism&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto';
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin{
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.mx-width{
+    max-width: 30vw;
+}
+
+.button {
+    width: 56px;
+    padding: 20px;
+    margin: 0 4px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 6px 0;
+}
+
+.row input {
+    font-size: 20px;
+    padding: 12px 0;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
