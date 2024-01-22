@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.box {
+    
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+}
+
+#red {
+   background-color: red;
+}
+#yellow {
+   background-color: yellow;
+}
+#pink {
+   background-color: rgb(255, 72, 102);
+}
+#purple {
+   background-color: purple;
+}
