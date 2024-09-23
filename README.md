@@ -1,1 +1,1 @@
-This is my small small project 
+These are my mini-projects
