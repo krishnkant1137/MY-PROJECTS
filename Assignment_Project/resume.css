@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.resume {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.left {
+  width: 30%;
+  background: #2a2a72;
+  color: #fff;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background: #ddd;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.contact, .skills, .certificates {
+  margin-top: 20px;
+}
+
+.skills ul, .certificates ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.right {
+  width: 70%;
+  padding: 20px;
+}
+
+.right section {
+  margin-bottom: 20px;
+}
+
+.right h3 {
+  font-size: 1.2em;
+  color: #2a2a72;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.right ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.right ul li {
+  margin: 5px 0;
+}

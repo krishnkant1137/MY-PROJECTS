@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search button {
+  margin-left: 5px;
+  background: pink;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #f8f8f8;
+}
+
+.text {
+  max-width: 50%;
+}
+
+.text h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.text p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: pink;
+}
+
+.contact p {
+  margin-top: 20px;
+  color: #777;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.border {
+background-image: url("./Assets/background-image.png");
+}
